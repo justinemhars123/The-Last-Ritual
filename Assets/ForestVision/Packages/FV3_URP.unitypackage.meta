@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 790aa02cd1652454db1c9febd4221b20
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 59910
+  packageName: ForestVision
+  packageVersion: 3.0
+  assetPath: Assets/ForestVision/Packages/FV3_URP.unitypackage
+  uploadId: 485106
