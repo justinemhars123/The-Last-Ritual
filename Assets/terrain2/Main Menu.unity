@@ -369,9 +369,9 @@ RectTransform:
   - {fileID: 1540530136}
   m_Father: {fileID: 986316903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -78.1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &311561313
@@ -627,9 +627,9 @@ RectTransform:
   - {fileID: 477415496}
   m_Father: {fileID: 986316903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512155492
@@ -887,9 +887,9 @@ RectTransform:
   - {fileID: 1781802066}
   m_Father: {fileID: 986316903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -118}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897053866
@@ -986,6 +986,7 @@ GameObject:
   - component: {fileID: 986316906}
   - component: {fileID: 986316905}
   - component: {fileID: 986316904}
+  - component: {fileID: 986316907}
   m_Layer: 5
   m_Name: Button Group
   m_TagString: Untagged
@@ -1098,6 +1099,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986316902}
   m_CullTransparentMesh: 1
+--- !u!114 &986316907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986316902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 15
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &1394072021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,9 +1159,9 @@ RectTransform:
   - {fileID: 1506780401}
   m_Father: {fileID: 986316903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -38.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394072023
@@ -1928,9 +1955,8 @@ MonoBehaviour:
   settingsButton: {fileID: 1394072023}
   creditsButton: {fileID: 311561313}
   quitButton: {fileID: 897053866}
-  normalColor: {r: 0, g: 0, b: 0, a: 0}
-  hoverColor: {r: 0.6, g: 0.1, b: 0.1, a: 0.3}
-  clickColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.5}
+  subtitleText: {fileID: 0}
+  titleText: {fileID: 1467920285}
   hoverScale: 1.05
   transitionSpeed: 8
 --- !u!114 &1836213190
